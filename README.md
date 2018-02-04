@@ -10,7 +10,7 @@ Application de messagerie instantanée réalisée dans le cadre du cours Android
   
 ### Instructions d'installation : 
 1. Télécharger l'APK de la dernière release
-2. Transférer l'APK sur votre terminal android
+2. Transférer l'APK sur votre terminal Android
 3. Exécuter l'APK
 
 ### Captures d'écran :
