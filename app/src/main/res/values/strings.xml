@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Firebase_Chat</string>
+    <string name="avatar">image utilisateur</string>
+    <string name="userName">Nom</string>
+    <string name="messageContent">Contenu</string>
+    <string name="loginInfo">Veuillez renseigner les champs suivants :</string>
+    <string name="userEmail">Adresse mail</string>
+    <string name="register">Continuer</string>
+    <string name="send">Envoyer</string>
+    <string name="logout">Se déconnecter</string>
+    <string-array name="messageOptions">
+        <item>Supprimer</item>
+        <item>Modifier</item>
+    </string-array>
+</resources>

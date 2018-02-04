@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Firebase_Chat</string>
+    <string name="avatar">user avatar</string>
+    <string name="userName">Name</string>
+    <string name="userEmail">Email</string>
+    <string name="register">Continue</string>
+    <string name="send">Send</string>
+    <string name="loginInfo">Please fill in the following fields</string>
+    <string name="messageContent">Content</string>
+    <string name="logout">Logout</string>
+    <string-array name="messageOptions">
+        <item>Delete</item>
+        <item>Modify</item>
+    </string-array>
+</resources>
