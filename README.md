@@ -17,9 +17,9 @@ Application de messagerie instantanée réalisée dans le cadre du cours Android
 
 ### Captures d'écran :
 
-![screen1](ressources/Login.PNG)
-![screen2](ressources/Main_Screen.PNG)
-![screen3](ressources/Logout_Menu.PNG)
-![screen4](ressources/Options_Menu.PNG)
+![screen1](ressources/Login.png)
+![screen2](ressources/Main_Screen.png)
+![screen3](ressources/Logout_Menu.png)
+![screen4](ressources/Options_Menu.png)
 
 ### Licence : [GPLV3](https://github.com/CousinC/Firebase_Chat/blob/master/LICENSE)
