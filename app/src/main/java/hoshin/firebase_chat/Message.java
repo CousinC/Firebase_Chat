@@ -11,19 +11,19 @@ public class Message {
     public Message(){
     }
 
-    public Message(String name, String mail, String content){
+    public Message(String name, String mail, String content, Long timestamp){
         this.content = content;
         this.userName = userName;
         this.userEmail = userEmail;
-        this.timestamp = System.currentTimeMillis();
+        this.timestamp = timestamp;
     }
 
-    public Message(String key, String name, String mail, String content){
+    public Message(String key, String name, String mail, String content, Long timestamp){
         this.key = key;
         this.content = content;
         this.userName = userName;
         this.userEmail = userEmail;
-        this.timestamp = System.currentTimeMillis();
+        this.timestamp = timestamp;
     }
 
     public String getKey() {

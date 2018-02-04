@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity implements ValueEventListene
         List<Message> messagesList = new ArrayList<>();
         for(DataSnapshot messageSnapshot : dataSnapshot.getChildren()){
             Message message = messageSnapshot.getValue(Message.class);
-            if (message != null) {
+            if(message != null){
                 message.setKey(messageSnapshot.getKey());
                 messagesList.add(message);
             }
@@ -111,7 +111,8 @@ public class MainActivity extends AppCompatActivity implements ValueEventListene
             DatabaseReference newData = mDatabaseReference.push();
             newData.setValue(new Message(user.getName(),
                             user.getEmail(),
-                            newMessage));
+                            newMessage,
+                            System.currentTimeMillis()));
         }
     }
 
@@ -130,7 +131,9 @@ public class MainActivity extends AppCompatActivity implements ValueEventListene
                         mDatabaseReference.child(message.getKey()).
                                 setValue(new Message(message.getUserName(),
                                         message.getUserEmail(),
-                                        ":D"));
+                                       ":D",
+                                        message.getTimestamp()));
+                        break;
                 }
             }
         });
@@ -140,7 +143,6 @@ public class MainActivity extends AppCompatActivity implements ValueEventListene
     @Override
     public void onCancelled(DatabaseError databaseError) {
         Toast.makeText(this, "Error: " + databaseError, Toast.LENGTH_SHORT).show();
-
     }
 
     @Override

@@ -55,7 +55,8 @@ public class MessageAdapter extends RecyclerView.Adapter<MessageAdapter.ViewHold
     public int getItemViewType(int position) {
         int itemType;
         Message message = mMessagesList.get(position);
-        if(message.getUserEmail().equals(mCurrentUser.getEmail())){
+        String userEmail = message.getUserEmail();
+        if(userEmail.equals(mCurrentUser.getEmail())){
             itemType = TYPE_SENT;
         }
         else{
