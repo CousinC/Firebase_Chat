@@ -11,7 +11,7 @@ Application de messagerie instantanée réalisée dans le cadre du cours Android
   
 ### Instructions d'installation : 
 
-1. Télécharger l'APK de la dernière release
+1. Télécharger l'APK de la dernière [release](https://github.com/CousinC/Firebase_Chat/releases)
 2. Transférer l'APK sur votre terminal Android
 3. Exécuter l'APK
 
