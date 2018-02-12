@@ -13,16 +13,16 @@ public class Message {
 
     public Message(String name, String mail, String content, Long timestamp){
         this.content = content;
-        this.userName = userName;
-        this.userEmail = userEmail;
+        this.userName = name;
+        this.userEmail = mail;
         this.timestamp = timestamp;
     }
 
     public Message(String key, String name, String mail, String content, Long timestamp){
         this.key = key;
         this.content = content;
-        this.userName = userName;
-        this.userEmail = userEmail;
+        this.userName = name;
+        this.userEmail = mail;
         this.timestamp = timestamp;
     }
 
